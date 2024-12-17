@@ -33,7 +33,7 @@ const newString = gameName.substring(0, 4)    // The value at index 4 won't be i
                                               // User can't give Negative start, end index value in brackets. 
 console.log(newString);                       // dipt
 
-const anotherString = gameName.slice(-1, 4);
+const anotherString = gameName.slice(-10, 4);
 console.log(anotherString);                  // ipt
 
 
