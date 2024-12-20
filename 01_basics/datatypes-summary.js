@@ -17,7 +17,6 @@ const bigNumber = 343666666666664646n
 
 
 
-
 // Primitive
 // 7 types : String, Number, Boolean, Null(empty), Undefined, Symbol, BigInt
 

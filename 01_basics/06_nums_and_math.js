@@ -59,4 +59,4 @@ console.log(Math.floor(Math.random() * 10) + 1); // to get the smallest integer 
 const min = 10;
 const max = 20;
 const randomValue = Math.floor((Math.random() * (max - min + 1)) + min);
-console.log(randomValue); // This will log a random value between 10 and 20 
+console.log(randomValue); // This will log a random value between 10 and 20

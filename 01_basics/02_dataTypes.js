@@ -2,12 +2,13 @@
 
 // alert(3 + 3) // we are using nodejs, not browser
 
-console.log(3 + 3);
+console.log(3+3)
 console.log("Diptansh");
 
-let name = "Diptansh";
-let age = 18;
-let isLoggedIn = false;
+
+let name = "Diptansh"
+let age = 18
+let isLoggedIn = false
 
 // number => 2 to power 53
 // bigint
@@ -16,6 +17,7 @@ let isLoggedIn = false;
 // null => standalone value
 // undefined => same as let state;
 // symbol => unique
+
 
 // object 
 
