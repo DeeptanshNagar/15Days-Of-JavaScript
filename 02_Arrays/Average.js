@@ -18,4 +18,8 @@ for (let value of marks) {
 }
 
 let avg = sum/marks.length;
+<<<<<<< HEAD
 console.log(`average marks of the class is ${avg}.`);  // Output : average marks of the class is 66.5. 
+=======
+console.log(`average marks of the class is ${avg}.`);
+>>>>>>> 7d658d9de0ce9f99a47e4951f1dc48d86c1eb533
