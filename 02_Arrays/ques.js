@@ -1,4 +1,4 @@
-// for of loop
+// for of - loop
 let items = [250, 400, 500, 600, 750];
 
 // method 1 :
