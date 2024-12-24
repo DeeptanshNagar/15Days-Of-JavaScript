@@ -1,20 +1,22 @@
-const accountId = 144553
-let accountEmail = "hitesh@google.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
-let accountState;
+const accountId = 144553;  // const is used for variables that should not be reassigned
+let accountEmail = "hitesh@google.com";  // let is used for block-scoped variables that can be reassigned
+var accountPassword = "12345";  // var is function-scoped and should be avoided in favor of let or const
 
-// accountId = 2      // not allowed
+let accountCity = "Jaipur";  // Corrected: use let to declare accountCity
 
-accountEmail = "dn@dn.com"
-accountPassword = "21212121"
-accountCity = "Bengaluru"
+let accountState;  // declared but not initialized
 
-console.log(accountId);
+// accountId = 2  // This line is commented out because reassigning a const variable will cause an error
+
+accountEmail = "dn@dn.com";  // reassigning the let variable is allowed
+accountPassword = "21212121";  // reassigning the var variable is allowed
+accountCity = "Bengaluru";  // reassigning the let variable is allowed
+
+console.log(accountId);  // logging the constant variable
 
 /*
 Prefer not to use var
-because of issue in block scope and functional scope
+because of issues in block scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
